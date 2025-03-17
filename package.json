@@ -1,0 +1,26 @@
+{
+  "name": "kslt_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development node index.js",
+    "start:server": "pm2 flush && pm2 start pm2_process.json && pm2 log",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "mecab-ya": "^0.1.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "uuid": "^9.0.1"
+  }
+}

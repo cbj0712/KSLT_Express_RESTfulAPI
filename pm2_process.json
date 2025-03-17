@@ -1,0 +1,9 @@
+{
+    "name": "kslt_api",
+    "script": "./index.js",
+    "watch": true,
+    "watch_delay": 5000,
+    "ignore_watch": ["node_modules", "client"],
+    "instances": "-1",
+    "exec_mode": "cluster" 
+}
